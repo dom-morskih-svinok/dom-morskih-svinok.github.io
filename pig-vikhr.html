@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<title>Вихрь, морская свинка</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="demo-band"><div class="wrap">Демо: магазин и свинки вымышлены, настоящей покупки нет.</div></div>
+<header class="site-head"><div class="wrap">
+<a class="logo" href="index.html">Дом морских свинок</a>
+<nav class="site-nav" aria-label="Разделы сайта"><a href="index.html#pigs" aria-current="page">Свинки</a><a href="history.html">История</a><a href="breeds.html">Породы</a></nav>
+</div></header>
+<main>
+<section class="section"><div class="wrap split">
+<div class="stack">
+<p class="small back-link"><a href="index.html#pigs">Все свинки</a></p>
+<h1>Вихрь</h1>
+<span class="tag none">Новичку: оценки нет</span>
+<p class="lead">Вихрь проверяет всё новое первым: миску, домик, ваш рукав.</p>
+<dl class="facts">
+<dt>Порода</dt><dd><a href="breeds.html#breed-vikhr">Абиссинская</a></dd>
+<dt>Окрас</dt><dd>Рыже-белый</dd>
+<dt>Пол</dt><dd>Самец</dd>
+<dt>Возраст</dt><dd>4 месяца</dd>
+<dt>Характер</dt><dd>Любопытный, первым бежит к миске</dd>
+</dl>
+<a class="btn" href="#request">Оставить заявку</a>
+</div>
+<figure class="portrait"><div class="portrait-frame photo"><img src="img/pig-vikhr.webp" alt="Портрет: рыже-белая абиссинская свинка" width="1200" height="896"></div><figcaption>Изображение сгенерировано</figcaption></figure>
+</div></section>
+
+<section class="section tinted"><div class="wrap">
+<div class="stack prose"><h2>О породе</h2><ul class="stack"><li>Шерсть растёт завитками-розетками, поэтому выглядит взъерошенной.</li><li>Абиссинские свинки бойкие и любят внимание.</li></ul><p class="src">Источник: <a href="https://www.chewy.com/education/small-pet/guinea-pig/types-of-guinea-pigs" target="_blank" rel="noopener">Chewy: типы морских свинок</a>; <a href="https://omlet.us/guide/guinea_pigs/choosing_a_guinea_pig/guinea_pig_varieties" target="_blank" rel="noopener">Omlet: разновидности морских свинок</a>. Обращение 01.11.2026.</p></div>
+<div class="stack prose"><h2>Что нужно любой свинке</h2>
+<ul class="stack">
+<li>Компания: свинки любят жить небольшими группами. В смешанной группе должен быть только один некастрированный самец.</li>
+<li>Сено: оно стачивает зубы и поддерживает кишечник.</li>
+<li>Витамин C с едой: не менее 10 мг на килограмм веса в день.</li>
+<li>Готовность к 5–8 годам заботы.</li>
+</ul>
+<p class="src">Источник: <a href="https://www.merckvetmanual.com/all-other-pets/guinea-pigs/description-and-physical-characteristics-of-guinea-pigs" target="_blank" rel="noopener">MSD Veterinary Manual: описание морских свинок</a>; <a href="https://www.merckvetmanual.com/all-other-pets/guinea-pigs/nutritional-problems-of-guinea-pigs" target="_blank" rel="noopener">MSD Veterinary Manual: питание морских свинок</a>. Обращение 01.11.2026.</p></div>
+</div></section>
+
+<section class="section"><div class="wrap"><h2>Другие свинки: их можно взять в пару</h2><div class="others"><a href="pig-plombir.html">Пломбир, самец</a><a href="pig-shyolk.html">Шёлк, самец</a><a href="pig-plyusha.html">Плюша, самка</a><a href="pig-izyum.html">Изюм, самец</a></div></div></section>
+
+<section class="section tinted" id="request"><div class="wrap">
+<h2>Заявка на Вихря</h2>
+<form class="request" id="request-form" novalidate>
+<p class="small muted">Демо: данные никуда не отправляются и не сохраняются. Настоящий контакт вводить не нужно.</p>
+<div class="field"><label for="request-name">Ваше имя</label><input id="request-name" name="name" type="text" autocomplete="name" aria-describedby="request-name-error" required><p class="error" id="request-name-error" hidden></p></div>
+<div class="field"><label for="request-contact">Телефон или почта</label><input id="request-contact" name="contact" type="text" autocomplete="off" aria-describedby="request-contact-error" required><p class="error" id="request-contact-error" hidden></p></div>
+<div class="field"><label for="request-message">Сообщение, если хотите. Берёте пару — напишите, какую свинку ещё</label><textarea id="request-message" name="message" rows="3"></textarea></div>
+<button class="btn" type="submit">Отправить заявку</button>
+</form>
+<div class="request" id="request-done" tabindex="-1" role="status" hidden>
+<h3>Заявка на Вихря принята</h3>
+<p>Это демонстрация: данные никуда не отправлены, и никто не перезвонит. Настоящую свинку на этом сайте купить нельзя.</p>
+<a href="index.html#pigs">Посмотреть других свинок</a>
+</div>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">Демонстрационный проект. Заявки никуда не отправляются. Советы по уходу не заменяют консультацию ветеринара.</div></footer>
+<script src="form.js"></script>
+</body>
+</html>
